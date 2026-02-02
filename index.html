@@ -81,13 +81,11 @@
   <h1>Will you be my Valentine?</h1>
 
   <div class="buttons">
-    <button id="no">No 😅</button>
-    <button id="yes">Yes ❤️</button>
+    <button id="no">Nu 😅</button>
+    <button id="yes">Da ❤️</button>
   </div>
 
-  <div id="result" class="result"></div>
-  <div class="hint">Best experienced on mobile</div>
-</div>
+ 
 
 <script>
   const noBtn = document.getElementById('no');
@@ -95,7 +93,7 @@
   const result = document.getElementById('result');
 
   let escapes = 0;
-  const maxEscapes = 4;
+  const maxEscapes = 1000;
 
   function moveButton() {
     if (escapes >= maxEscapes) return;
